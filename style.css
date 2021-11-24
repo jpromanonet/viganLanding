@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@300;500&family=Varela+Round&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.barra-superior {
+    padding-bottom: 15px;
+    background: #faefe3;
+}
+
+#logo {
+    padding: 70px;
+    margin: 0 auto;
+    background: url(logovigan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 50px;
+    border-radius: 100px;
+}
+
+#navegacion {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#navegacion a {
+    color: #53851e;
+    text-decoration: none;
+    padding: 10px 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.articulo {
+    padding: 20px;
+    width: 60%;
+    float: left;
+}
+
+aside {
+    padding: 20px;
+    width: 20%;
+    float: right;
+    text-align: center;
+    border: 2px solid #53851e;
+    margin: 20px;
+}
